@@ -12,6 +12,7 @@ namespace ServiceHost
     {
         static void Main(string[] args)
         {
+            //新建主机
             System.ServiceModel.ServiceHost host
                  = new System.ServiceModel.ServiceHost(typeof(WcfDemo.WcfTest),new Uri("http://localhost/Host"));
             host.Open();
