@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NPOI", "NPOI\NPOI.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceDemo", "WebServiceDemo\WebServiceDemo.csproj", "{0E01FA69-F7F9-431F-9F42-8DB3BF9DF2ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTS、CLS、CLR", "CTS、CLS、CLR\CTS、CLS、CLR.csproj", "{B43ABD87-9991-40FA-A4EF-F96CF9375880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "标准事件", "标准事件\标准事件.csproj", "{A689180F-1928-4F65-B06A-E53B2B813E14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{0E01FA69-F7F9-431F-9F42-8DB3BF9DF2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E01FA69-F7F9-431F-9F42-8DB3BF9DF2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E01FA69-F7F9-431F-9F42-8DB3BF9DF2ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B43ABD87-9991-40FA-A4EF-F96CF9375880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B43ABD87-9991-40FA-A4EF-F96CF9375880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B43ABD87-9991-40FA-A4EF-F96CF9375880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B43ABD87-9991-40FA-A4EF-F96CF9375880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A689180F-1928-4F65-B06A-E53B2B813E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A689180F-1928-4F65-B06A-E53B2B813E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A689180F-1928-4F65-B06A-E53B2B813E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A689180F-1928-4F65-B06A-E53B2B813E14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
