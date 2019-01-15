@@ -10,10 +10,10 @@ namespace ASP.NetDemo
     public partial class WebFormDemo : System.Web.UI.Page
     {
         //回发：
-        /*当用户操作让表单产生submit时产生回发
+        /*🌂当用户操作让表单产生submit时产生回发
          *当前页面被递交给服务器处理，处理时服务器会对当前页面重新加载（绘制）
          * Load事件：不管是首次加载还是回发网页都会激发Load事件
-         * AutoEventWireup = true
+         * AutoEventWireup = true/false时不加载Load事件
          */
         protected void InitializeComponent()
         {
@@ -33,7 +33,7 @@ namespace ASP.NetDemo
         //返回html响应，及返回控件状态
         protected void Button1_Click(object sender, EventArgs e)
         {
-            TextBox1.Text = "";
+           
         }
     }
 }
