@@ -33,7 +33,7 @@ namespace ASP.NetDemo
         //返回html响应，及返回控件状态
         protected void Button1_Click(object sender, EventArgs e)
         {
-           
+           Response.Redirect("Handlers/非压缩文件下载.ashx");
         }
     }
 }
