@@ -12,6 +12,12 @@ namespace MVCDemo.Controllers
         // GET: Test
         public ActionResult Index(IndexModel model)
         {
+            //数据验证是否通过
+            if (ModelState.IsValid)
+            {
+                var n = ModelState[""];
+            }
+            //return Content(model.Id + model.name);
             model.Result = model.Num1 + model.Num2;
             return View(model);
         }
