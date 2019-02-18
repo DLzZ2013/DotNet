@@ -13,7 +13,7 @@ namespace Ado.Net
         {
             using (var db = new LogServerEntities())
             {
-                var dbData = db.Log.Add(new Net.Log())
+                var dbData = db.Log.Add(new Net.Log()
                 {
                     ExDetail = "",
                     ExpType = "",
