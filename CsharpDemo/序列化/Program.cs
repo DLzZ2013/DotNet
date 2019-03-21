@@ -3,6 +3,8 @@ using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Web.Script.Serialization;
 using System.Xml.Serialization;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Json;
 
 namespace 序列化
 {
@@ -16,6 +18,7 @@ namespace 序列化
 
             //json序列化
             JavaScriptSerializer jsSer = new JavaScriptSerializer();
+            DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(string));
             var msg = jsSer.Serialize(LBJ);
             //Console.WriteLine(msg);//{"Name":null,"Age":34,"Position":"SF"}     
             //1、序列化只序列化数据。（字段值=属性值，方法不会被序列化），

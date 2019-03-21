@@ -27,7 +27,8 @@ namespace EF
                 //ExecuteNonQuery
                 //db.Database.ExecuteSqlCommand()
                 //db.Database.SqlQuery<>()
-
+                //状态改变依赖主键
+                //AsNoTracking（）
 
             }
 

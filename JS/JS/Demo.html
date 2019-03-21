@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <meta charset="utf-8" />
+    <style>
+        #img_change {
+            width: 80px;
+            height: 120px            
+        }
+    </style>
+</head>
+<body>
+<!-- 1、事件中 return false 阻止事件发生
+2、标签属性的值只有一个可以只写属性名（属性名和属性名相同）
+
+3、document.querySelector("#btn")根据选择器的方式获取（单个）元素
+4、document.querySelectorAll("#btn")根据选择器的方式获取（伪数组）元素
+
+5、innerText设置成对标签的value值，主要设置文本，设置标签内容是没有效果的   
+6、textContext设置标签中的文本内容 IE8不支持
+7、浏览器不支持的属性的类型是undefined（用于判断）
+8、innerHTML可以设置文本和标签（🌂）    
+9、innerText可以获取标签及子标签中间的文本内容
+10、innerHTML获取标签中的文本及标签符号
+    
+11、标签自定义属性直接在标签中写属性名，
+获取：this.getAttribute("属性名");
+设置：this.setAttribute("属性名"，value);
+移除自带及自定义属性：removeAttribute("属性名")；
+
+12、（标签、属性、文本 ）节点 
+节点的属性：nodeType、nodeName、nodeText
+    只有标签节点才能作为父子节点（parentNodes、childNodes）元素（parentElements、children）
+
+-->
+<img src="res/lbj.jpg" id="img_change" alt="Lebron James"/>
+<input type="button" id="btn_changePic" value="换图"/>
+<script>
+
+    function getElement(id) {
+        return document.getElementById(id);
+    }
+
+    getElement("btn_changePic").onclick = function() {
+        getElement("img_change").src = "res/zb.png";
+    };
+</script>
+</body>
+</html>

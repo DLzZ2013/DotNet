@@ -25,5 +25,13 @@ namespace WebService
                 "LBJ","DW","KD"
             };
         }
+        [WebMethod]//该特性表示方法可被远程调用
+        public List<string> HelloWorld1()
+        {
+            return new List<string>()
+            {
+                "LBJ","DW","KD"
+            };
+        }
     }
 }
